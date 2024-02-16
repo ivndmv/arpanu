@@ -1,0 +1,118 @@
+.wpcf7 input[type="text"], .wpcf7 input[type="email"], .wpcf7 input[type="tel"], .wpcf7 select, .wpcf7 select::placeholder {
+    height: 40px;
+    font-size: 16px;
+    width: 100%;
+    padding: 7px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+    border: 1px solid var(--wp--preset--color--custom-color-4);
+}
+.wpcf7 input[type="submit"] , .wpcf7 input[type="file"]{
+    width: 100%;
+    box-sizing: border-box;
+}
+.wpcf7 input[type="submit"] {
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    cursor: pointer;
+    background: var(--wp--preset--color--custom-color-5);
+    color: #fff;
+}
+.wpcf7 .wpcf7-submit:disabled {
+    color: #f5f5f5;
+    background: #cacaca;
+    cursor: not-allowed;
+}
+.wpcf7 label {
+    font-size: 14px;
+    padding: 5px 0;
+    display: inline-block;
+    line-height: 1.5;
+}
+.wpcf7 p {
+    margin: 0;
+}
+span.wpcf7-list-item {
+    margin-left: 3px;
+}
+.cf7-div-out {
+    margin-top: 15px;
+}
+.cf7-div-out.cf7-div-out-file label {
+    margin-bottom: 7px;
+}
+.cf7-div-out-file {
+    border-radius: 5px;
+    padding: 10px;
+    background: #d3d3d32b;
+}
+.cf7-div-out.cf7-div-out-grid-tel {
+    display: grid;
+    grid-template-columns: 125px 1fr;
+    gap: 3px;
+}
+.wpcf7 span.select2-selection.select2-selection--single {
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 1px solid var(--wp--preset--color--custom-color-4);
+    font-size: 16px;
+}
+span.select2-dropdown.select2-dropdown--below {
+    border: 1px solid var(--wp--preset--color--custom-color-4);
+    border-top: none;
+    padding: 10px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 40px !important;
+}
+
+.wpcf7 a.cd-upload-btn:before {
+    content: "\e2c3";
+    font-family: 'Material Icons';
+    display: block;
+    font-size: 40px;
+}
+.wpcf7 .codedropz-upload-inner span {
+    display: none;
+}
+.wpcf7 .dnd-upload-image {
+    display: none;
+}
+.wpcf7 .dnd-upload-details {
+    font-size: 10px;
+}
+.wpcf7 .dnd-upload-status .dnd-upload-details .dnd-progress-bar span {
+    vertical-align: middle;
+    text-align: center;
+    background: var(--wp--preset--color--custom-color-4) !important;
+}
+
+.wpcf7 .dnd-upload-status .dnd-upload-details .name span {
+    color: #000;
+}
+
+.wpcf7 .dnd-upload-status .dnd-upload-details .name {
+    flex-direction: column;
+}
+
+.wpcf7 .dnd-upload-status .dnd-upload-details .name em {
+    font-size: 9px;
+}
+
+.dnd-upload-status.complete {
+    margin-bottom: 10px;
+    padding: 5px;
+    background: var(--wp--preset--color--custom-color-1);
+    border-radius: 10px;
+}
+
+.wpcf7 a.remove-file {
+    right: 5px !important;
+    top: 5px !important;
+}
