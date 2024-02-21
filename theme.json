@@ -1,63 +1,6 @@
 {
 	"settings": {
 		"appearanceTools": true,
-		"color": {
-			"gradients": [
-				{
-					"color": "#000",
-					"gradient": "linear-gradient(135deg,rgb(227,242,253) 0%,rgb(100,181,246) 100%)",
-					"name": "Gradient 1",
-					"slug": "custom-gradient-1"
-				},
-				{
-					"gradient": "linear-gradient(135deg,rgb(100,181,246) 0%,rgb(30,136,229) 100%)",
-					"name": "Gradient 2",
-					"slug": "custom-gradient-2"
-				},
-				{
-					"gradient": "linear-gradient(135deg,rgb(130,177,255) 0%,rgb(41,98,255) 100%)",
-					"name": "Gradient 3",
-					"slug": "custom-gradient-3"
-				}
-			],
-			"palette": [
-				{
-					"color": "#e3f2fd",
-					"name": "Color 1",
-					"slug": "custom-color-1"
-				},
-				{
-					"color": "#bbdefb",
-					"name": "Color 2",
-					"slug": "custom-color-2"
-				},
-				{
-					"color": "#90caf9",
-					"name": "Color 3",
-					"slug": "custom-color-3"
-				},
-				{
-					"color": "#0d47a1",
-					"name": "Color 4",
-					"slug": "custom-color-4"
-				},
-				{
-					"color": "#2962ff",
-					"name": "Color 5",
-					"slug": "custom-color-5"
-				},
-				{
-					"color": "#000",
-					"name": "Color 6",
-					"slug": "custom-color-6"
-				},
-				{
-					"color": "#ffffff",
-					"name": "Color 7",
-					"slug": "custom-color-7"
-				}
-			]
-		},
 		"layout": {
 			"contentSize": "1000px",
 			"wideSize": "1320px"
