@@ -70,7 +70,7 @@ function modify_countries_array($countries_array) {
 add_filter( 'script_loader_tag', 'prefix_defer_js_rel_preload', 10, 4 );
 function prefix_defer_js_rel_preload($html) {
   if ( ! is_admin() ) {
-    if (!str_contains($html, '/wp-includes/js/jquery/') && !str_contains($html, '/google-site-kit/')) {
+    if (!str_contains($html, '/wp-includes/js/jquery/')) {
       $html = str_replace( '></script>', ' defer></script>', $html );
     }
   }
