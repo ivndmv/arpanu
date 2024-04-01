@@ -136,7 +136,7 @@ function clickup_list_id_function() {
 add_action('wp_footer', 'populate_cf7_hidden_fields');
 function populate_cf7_hidden_fields() {
   $clickup_list_link = get_option( 'clickup_list_id' );
-  $clickup_list_id = trim(explode('/v/li/', $clickup_list_link)[1]);
+  $clickup_list_id = trim(explode('li/', $clickup_list_link)[1]);
 ?>
   <script type="text/javascript">
   const cf7MakeHiddenFields = document.querySelectorAll('input[name="cf7-make-list-id"]')
